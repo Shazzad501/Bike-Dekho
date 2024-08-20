@@ -190,19 +190,19 @@
   <!-- Main body start -->
    <main class="md:container mx-auto">
     <!-- Fetured Bike section start -->
-     <div class="mb-[70px] mt-[70px]">
+     <div class="mb-[40px] mt-[70px]">
       <!-- text content -->
-       <div class="md:text-center flex flex-col items-center justify-center">
+       <div class="px-[30px] flex flex-col items-start justify-start md:text-center md:items-center md:justify-center">
         <h2 class="text-5xl font-extrabold mb-3">Fetured Bikes In This Year</h2>
         <p class="text-base font-bold text-red-600">Best bike collection</p>
-        <div class="hidden md:block w-20 mt-1 border-b-2 border-red-400 "></div>
+        <div class=" w-20 mt-1 border-b-2 border-red-400 "></div>
        </div>
        <!-- bike img content -->
         <div class="w-full mt-12 grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div class="flex items-center justify-center h-[450px]">
             <img class="w-full" src="assets/feature-1.png" alt="">
           </div>
-          <div class="flex items-center justify-center h-[450px]">
+          <div class="flex items-center justify-center h-[450px] md:hidden lg:block">
             <img class="w-full" src="assets/feature-2.png" alt="">
           </div>
           <div class="flex items-center justify-center h-[450px]">
@@ -211,6 +211,82 @@
         </div>
      </div>
     <!-- Fetured Bike section close -->
+
+    <!-- Latest bike section start -->
+     <div class="w-full mb-[70px]">
+      <!-- text container -->
+       <div class="px-[30px] md:text-center">
+        <h2 class="text-5xl font-extrabold">Latest News</h2>
+       </div>
+      <!-- Card container -->
+     <div class="mt-8 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <!-- card 1 -->
+      <div class="card bg-base-100 shadow-xl px-5 py-5">
+        <figure class="">
+          <img
+            src="assets/latest1.png"
+            alt=""
+            class="w-full"/>
+        </figure>
+        <div class="mt-4">
+          <h2 class="text-2xl font-bold">Ducati XDIAVEL S-73</h2>
+          <p class="text-base font-bold my-3">Lorem ipsum dolor sit amet, consectetur <br class="hidden md:block"> adipiscing elit. Lacus, fermentum amet <br class="hidden md:block"> faucibus sed id nisi lectus at.</p>
+          <div class="card-actions">
+            <button class="btn bg-primary-color text-white hover:bg-slate-400 hover:text-black text-[20px] font-extrabold">Read More</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="card bg-base-100 shadow-xl px-5 py-5">
+        <figure class="">
+          <img
+            src="assets/latest2.png"
+            alt=""
+            class="w-full"/>
+        </figure>
+        <div class="mt-4">
+          <h2 class="text-2xl font-bold">Motorcycles & Scooters</h2>
+          <p class="text-base font-bold my-3">Lorem ipsum dolor sit amet, consectetur <br class="hidden md:block"> adipiscing elit. Lacus, fermentum amet <br class="hidden md:block"> faucibus sed id nisi lectus at.</p>
+          <div class="card-actions">
+            <button class="btn bg-transparent border-1 border-primary-color  text-primary-color hover:bg-slate-400 hover:text-black text-[20px] font-extrabold">Read More</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 3 -->
+      <div class="card bg-base-100 shadow-xl px-5 py-5">
+        <figure class="">
+          <img
+            src="assets/latest3.png"
+            alt=""
+            class="w-full"/>
+        </figure>
+        <div class="mt-4">
+          <h2 class="text-2xl font-bold">2021 Honda CBR500R</h2>
+          <p class="text-base font-bold my-3">Lorem ipsum dolor sit amet, consectetur <br class="hidden md:block"> adipiscing elit. Lacus, fermentum amet <br class="hidden md:block"> faucibus sed id nisi lectus at.</p>
+          <div class="card-actions">
+            <button class="btn bg-transparent border-1 border-primary-color  text-primary-color hover:bg-slate-400 hover:text-black text-[20px] font-extrabold">Read More</button>
+          </div>
+        </div>
+      </div>
+      <!-- card 4 -->
+      <div class="card bg-base-100 shadow-xl px-5 py-5 hidden md:block lg:hidden">
+        <figure class="">
+          <img
+            src="assets/R15.png"
+            alt=""
+            class="w-full"/>
+        </figure>
+        <div class="mt-4">
+          <h2 class="text-2xl font-bold">2024 Yamaha R15M</h2>
+          <p class="text-base font-bold my-3">Lorem ipsum dolor sit amet, consectetur <br class="hidden md:block"> adipiscing elit. Lacus, fermentum amet <br class="hidden md:block"> faucibus sed id nisi lectus at.</p>
+          <div class="card-actions">
+            <button class="btn bg-transparent border-1 border-primary-color  text-primary-color hover:bg-slate-400 hover:text-black text-[20px] font-extrabold">Read More</button>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <!-- Latest bike section end -->
    </main>
   <!-- Main body close -->
 
