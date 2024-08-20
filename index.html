@@ -299,7 +299,7 @@
         <h2 class="text-5xl font-extrabold">Happy <span class="text-primary-color">Client Says</span></h2>
        </div>
        <!-- client card  -->
-        <div class="grid px-[30px] gap-10 grid-cols-1 md:grid-cols-3">
+        <div class="grid px-[30px] gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- client 1 -->
           <div class="card px-5 py-5 flex flex-col items-center justify-center shadow-xl">
             <figure class="">
@@ -349,7 +349,7 @@
             </div>
           </div>  
           <!-- client 3 -->
-          <div class="card px-5 py-5 flex flex-col items-center justify-center shadow-xl">
+          <div class="md:hidden lg:block card px-5 py-5 flex flex-col items-center justify-center shadow-xl">
             <figure class="">
               <img
                 src="assets/user-3.png"
@@ -383,13 +383,13 @@
             <h2 class="text-5xl font-extrabold">Frequently Asked <span class="text-primary-color">Questions</span></h2>
           </div>
         <!-- faq main content -->
-        <div class="w-full lg:h-[520px] mt-[50px] md:flex">
+        <div class="w-full gap-10 lg:h-[520px] mt-[50px] md:flex md:flex-col lg:flex-row">
           <!-- FAQs img -->
-            <div class="w-full flex items-center justify-center md:w-[50%]">
+            <div class="w-full flex items-center justify-center md:w-full lg:w-[50%]">
               <img class="w-[90%] h-full" src="assets/faq.png" alt="">
             </div>
           <!-- Accordion section -->
-          <div class="w-full flex flex-col gap-5 md:px-[30px] md:w-[50%] ">
+          <div class="w-full flex flex-col gap-5 md:px-[30px] md:w-full lg:w-[50%] ">
             <!-- FAQs-1 -->
             <div class="collapse rounded-md text-start collapse-arrow bg-base-200">
               <input type="radio" name="my-accordion-2" checked="checked" />
@@ -442,7 +442,7 @@
           <p class="cursor-pointer hover:text-primary-color">Download Now</p>
           <p class="cursor-pointer hover:text-primary-color">License</p>
         </div>
-        <div class="flex gap-5 text-base font-bold mt-7">
+        <div class="flex flex-wrap gap-5 text-base font-bold mt-7">
           <p class="cursor-pointer hover:text-primary-color">About</p>
           <p class="cursor-pointer hover:text-primary-color">Features</p>
           <p class="cursor-pointer hover:text-primary-color">Pricing</p>
